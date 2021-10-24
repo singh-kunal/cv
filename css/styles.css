@@ -1,4 +1,23 @@
 /***************************************TAG SELECTORS**************************************/
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #FF2E63;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FFFFFF;
+  }
 body {
     background-color: #252A34;
     color: #EAEAEA;
@@ -23,6 +42,7 @@ img:hover {
 }
 
 /***************************************CLASS SELECTORS**************************************/
+
 .gaming {
     background-color: #08D9D6;
     transition: background-color 1s;
@@ -38,6 +58,7 @@ img:hover {
 }
 
 /***************************************ID SELECTORS**************************************/
+
 #anime {
     background-color: bisque;
 }
