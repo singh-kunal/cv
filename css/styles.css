@@ -1,0 +1,44 @@
+/***************************************TAG SELECTORS**************************************/
+body {
+    background-color: #252A34;
+    color: #EAEAEA;
+}
+h1 {
+    color: #08D9D6;
+}
+h3 {
+    color: #FF2E63;
+}
+
+hr {
+    border-color: #EAEAEA;
+    border-style: none none dotted;
+    border-width: 8px;
+    width: 5%;
+}
+img {
+    transition: border-radius 1s;
+}
+img:hover {
+    background-color: gold;
+    border-radius: 0%;
+}
+
+/***************************************CLASS SELECTORS**************************************/
+.gaming {
+    background-color: #08D9D6;
+    transition: background-color 1s;
+}
+
+.music {
+    background-color: #FF2E63;
+    transition: background-color 1s;
+}
+.circular {
+    border-radius: 100%;
+}
+
+/***************************************ID SELECTORS**************************************/
+#anime {
+    background-color: bisque;
+}
