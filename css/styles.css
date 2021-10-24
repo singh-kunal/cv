@@ -34,7 +34,7 @@ img:hover {
 }
 .circular {
     border-radius: 100%;
-    transition: border-radius 1s;
+    transition: border-radius 1.5s;
 }
 
 /***************************************ID SELECTORS**************************************/
