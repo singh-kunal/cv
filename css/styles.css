@@ -2,29 +2,29 @@
 
 a:link {
     color: red;
-  }
+}
   
-  /* visited link */
-  a:visited {
+a:visited {
     color: #FF2E63;
-  }
+}
   
-  /* mouse over link */
-  a:hover {
+a:hover {
     color: hotpink;
-  }
+}
   
-  /* selected link */
-  a:active {
+a:active {
     color: #FFFFFF;
-  }
+}
+
 body {
     background-color: #252A34;
     color: #EAEAEA;
 }
+
 h1 {
     color: #08D9D6;
 }
+
 h3 {
     color: #FF2E63;
 }
@@ -42,6 +42,10 @@ img:hover {
 }
 
 /***************************************CLASS SELECTORS**************************************/
+.circular {
+    border-radius: 100%;
+    transition: all 1s;
+}
 
 .gaming {
     background-color: #08D9D6;
@@ -51,10 +55,6 @@ img:hover {
 .music {
     background-color: #FF2E63;
     transition: background-color 1s;
-}
-.circular {
-    border-radius: 100%;
-    transition: all 1s;
 }
 
 /***************************************ID SELECTORS**************************************/
