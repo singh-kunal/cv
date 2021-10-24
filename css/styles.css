@@ -16,9 +16,7 @@ hr {
     border-width: 8px;
     width: 5%;
 }
-img {
-    transition: border-radius 1s;
-}
+
 img:hover {
     background-color: gold;
     border-radius: 0%;
@@ -36,6 +34,7 @@ img:hover {
 }
 .circular {
     border-radius: 100%;
+    transition: border-radius 1s;
 }
 
 /***************************************ID SELECTORS**************************************/
