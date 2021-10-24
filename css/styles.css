@@ -49,12 +49,10 @@ img:hover {
 
 .gaming {
     background-color: #08D9D6;
-    transition: background-color 1s;
 }
 
 .music {
     background-color: #FF2E63;
-    transition: background-color 1s;
 }
 
 /***************************************ID SELECTORS**************************************/
